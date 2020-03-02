@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+./kerastroke/__init__.py
+kerastroke/__init__.py
+kerastroke/neuroplast.py
+kerastroke/pruning.py
+kerastroke/stroke.py
+kerastroke.egg-info/PKG-INFO
+kerastroke.egg-info/SOURCES.txt
+kerastroke.egg-info/dependency_links.txt
+kerastroke.egg-info/requires.txt
+kerastroke.egg-info/top_level.txt
