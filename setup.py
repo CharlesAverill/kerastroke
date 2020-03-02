@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='kerastroke',
-    version='2.0.0',
+    version='2.0.1',
     scripts=['./kerastroke/__init__.py'],
     author="Charles Averill",
     author_email="charlesaverill20@gmail.com",
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description=long_description,
     install_requires=['keras', 'numpy'],
     long_description_content_type="text/markdown",
-    url="https://github.com/CharlesAverill/stroke-testing/tree/master",
+    url="https://github.com/CharlesAverill/kerastroke/",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

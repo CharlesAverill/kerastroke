@@ -55,3 +55,14 @@ Parameters of the callback are:
 - pruning_min: The lowest value a weight can be to be pruned (this should usually be 0.0)
 - pruning_max: The highest value a weight can be to be pruned
 - cutoff: The number of epochs that Pruning will be performed
+
+# Usage
+KeraStroke Callbacks can be used like any other custom callback. Here's a basic example:
+
+```python
+from kerastroke import Stroke
+model.fit(X,
+          y, 
+          epochs=32, 
+          callbacks=[Stroke()])
+```
