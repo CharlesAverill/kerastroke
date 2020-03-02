@@ -18,7 +18,7 @@ If you'd like to see the tests I'm performing with KeraStroke, you can view my t
 KeraStroke 2.0.0 marks when I really started putting work into the project. I've made an effort to comment more, clean my code up, and make the package easier to understand overall without sacrificing utility.
 
 # Stroke
-The goal of the Stroke callback is to re-initialize weights that have begun to contribute to overfitting.
+The goal of the Stroke callback is to re-initialize weights/biases that have begun to contribute to overfitting.
 
 Parameters of the callback are:
 
@@ -34,7 +34,7 @@ Parameters of the callback are:
 - biases: If true, Stroke will also be performed on biases
 
 # Pruning
-The goal of the Pruning callback is to nullify weights that are effectively 0.
+The goal of the Pruning callback is to nullify weights/biases that are effectively 0.
 
 Parameters of the callback are:
 
@@ -45,7 +45,7 @@ Parameters of the callback are:
 - biases: If true, Pruning will also be performed on biases
 
 # NeuroPlast
-The goal of the Pruning callback is to nullify weights that are effectively 0.
+The goal of the NeuroPlast callback is to randomly re-initialize weights/biases that are effectively 0.
 
 Parameters of the callback are:
 
