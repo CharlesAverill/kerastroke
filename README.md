@@ -1,6 +1,6 @@
 # KeraStroke
 
-KeraStroke is a Python package that implements generalization-improvement techniques for Keras models in the form of custom Keras Callbacks. These techniques function similarly but have different philosophies and results. The techniques are:
+KeraStroke is a [Python package](https://pypi.org/project/kerastroke/#description) that implements generalization-improvement techniques for Keras models in the form of custom Keras Callbacks. These techniques function similarly but have different philosophies and results. The techniques are:
 - Stroke: Re-initializaing random weight/bias values.
 - Pruning: Reducing model size by setting weight/bias values that are close to 0, to 0.
 - NeuroPlast: Re-initializing any weight/bias values that are 0 or close to 0.
