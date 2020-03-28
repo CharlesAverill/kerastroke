@@ -17,6 +17,9 @@ If you'd like to see the tests I'm performing with KeraStroke, you can view my t
 
 KeraStroke 2.0.0 marks when I really started putting work into the project. I've made an effort to comment more, clean my code up, and make the package easier to understand overall without sacrificing utility.
 
+# Limitations
+KeraStroke is still in the development phase, and not advised for general use yet. Heavy testing has been done on Dense nets, but little testing has been done on CNNs and no testing has been done on RNNs. Currently CNNs are not supported at all. I'm working on this, but will definitely need the help. Please see [the github page](https://pypi.org/project/kerastroke/#description) or [contact me](charlesaverill20@gmail.com) to contribute to the project.
+
 # Stroke
 The goal of the Stroke callback is to re-initialize weights/biases that have begun to contribute to overfitting.
 
