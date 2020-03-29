@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='kerastroke',
-    version='2.0.3',
+    version='2.0.4',
     scripts=['./kerastroke/__init__.py'],
     author="Charles Averill",
     author_email="charlesaverill20@gmail.com",
