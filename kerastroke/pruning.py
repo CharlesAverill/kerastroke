@@ -63,7 +63,7 @@ class Pruning(Callback):
             if self.do_weights:
                 weights = self.__prune(weights)
 
-            if self.biases:
+            if self.do_biases:
                 biases = self.__prune(biases)
 
             self.model.set_weights([weights, biases])
