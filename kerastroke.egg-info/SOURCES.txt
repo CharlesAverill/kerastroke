@@ -4,6 +4,8 @@ setup.py
 ./kerastroke/__init__.py
 dist/kerastroke-2.0.2-py3-none-any.whl
 dist/kerastroke-2.0.2.tar.gz
+dist/kerastroke-2.0.3-py3-none-any.whl
+dist/kerastroke-2.0.3.tar.gz
 kerastroke/__init__.py
 kerastroke/neuroplast.py
 kerastroke/pruning.py
