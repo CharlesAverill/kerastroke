@@ -27,7 +27,7 @@ Dense nets, but little testing has been done on CNNs and no testing has been don
 functioning properly in KeraStroke! The issue with previous versions had to do with the way the callback would retrieve
  the weights from the models. The callbacks perform significantly better on DenseNets, but could still find use in CNNs.
  I'm working on this, but will definitely need the help. Please see
- [the github page](https://github.com/CharlesAverill/kerastroke/) or 
+ [the github page](https://github.com/CharlesAverill/stroke-testing/) or 
  [contact me](https://mail.google.com/mail/?view=cm&fs=1&to=charlesaverill20@gmail.com) to contribute to the project.
 
 # Stroke
