@@ -35,7 +35,8 @@ class Stroke(Callback):
         self.value = set_value
         self.low_bound = low_bound
         self.high_bound = high_bound
-        assert volatility_ratio < 1.0, "volatility_ratio must be less than 1.0"
+        if volatility_ratio >= 1.0 or volatility_ratio <= 0.0:
+            raise Exception("volatility_ratio must be between 0 and 1, non-inclusive")
         self.v_ratio = volatility_ratio
         self.cutoff = cutoff
         self.decay = decay
